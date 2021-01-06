@@ -199,6 +199,18 @@ $ ./todo report
 yyyy-mm-dd Pending : 1 Completed : 4
 ```
 
+## For Linux: 
+### To run this code from anywhere in terminal, do as follows:
+#### 1. In home directory : mkdir myPythonScripts
+#### 2. In .bashrc(if you are in bash) file, add : export PATH="$PATH:/home/user/myPythonScripts"
+#### 3. cd myPythonScripts
+#### 4. copy todo.py to myPythonScripts
+#### 5. mv todo.py todo
+#### 6. source ~/.bashrc
+
+Upon doing ablove steps we can run "todo" as any similar Linux command line commands(as "cd" , "pwd" , "ls"), with or without arguments.
+
+
 ## Improving README.md
 
 If you feel like we are missing out steps, feel free to make a pull request.
